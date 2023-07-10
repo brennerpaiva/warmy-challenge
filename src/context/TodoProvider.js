@@ -12,29 +12,30 @@ function TodoProvider(props) {
   function removeTodo(id) {
     setTodoList(todoList.filter((todo) => todo.id != id));
   }
-
   function updateTodo(todo) {
     var index = -1;
-    for (let i = 0; i < todoList.length; i++) {
-      if (todoList[i].id == todo.id) {
+    var newTodos = [...todoList];
+    for (let i = 0; i < newTodos.length; i++) {
+      if (newTodos[i].id == todo.id) {
         index = i;
         break;
       }
     }
     if (index != -1) {
-      todoList[index] = todo;
-      setTodoList(todoList);
+      newTodos[index] = todo;
+      setTodoList(newTodos);
     }
   }
 
   return (
     <div>
       <TodoContext.Provider
-        value={
-          todoList: addTodo,
+        value={{
+          todoList: todoList,
+          addTodo: addTodo,
           removeTodo: removeTodo,
           updateTodo: updateTodo,
-        }
+        }}
       >
         {props.children}
       </TodoContext.Provider>
