@@ -2,9 +2,11 @@
   <h1>Desafio Frontend - Warmy</h1>
 </div>
 
-## Visão geral
+##📝 Desafio Técnico - Frontend-Júnior
+Este teste tem como objetivo avaliar as habilidades em desenvolvimento frontend utilizando React.js, gerenciamento de estado com Context API e o uso de bibliotecas de estilização como Tailwind ou Styled Components. O desafio consiste em criar uma aplicação simples de gerenciamento de tarefas.
 
-### ⚙️ Requisitos 
+
+##⚙️ Requisitos 
 Utilizar React.js para desenvolver a aplicação.
 Implementar um gerenciamento de estado utilizando a Context API do React.
 Utilizar Tailwind ou Styled Components para estilizar a aplicação.
@@ -15,7 +17,7 @@ A aplicação deve ter as seguintes funcionalidades:
   * Atualizar automaticamente o total de tarefas pendentes.
   * Armazenar as tarefas em um estado global utilizando a Context API.
 
-### 🗂️ O Projeto
+## 🗂️ O Projeto
 ![image](https://github.com/brennerpaiva/warmy-challenge/assets/114958953/b270942d-7b87-4667-86d3-3cd55f09ee1c)
 
 
@@ -27,7 +29,7 @@ Ao utilizar o React.js, pude aproveitar os conceitos de componentização, o que
 No geral, estou satisfeito com o resultado do projeto. Sempre estou estou aberto a sugestões e melhorias adicionais para a aplicação.
 
 
-### 🖥️ Instruções para rodar localmente:
+## 🖥️ Instruções para rodar localmente:
 #### É possível acessar este projeto pelo deploy, mas caso queira testa-lo localmente para analisar ou até fazer modificações, siga as instruções abaixo!
 
 <strong> 1️ • Clone o repositório usando o GIT </strong>
@@ -55,7 +57,7 @@ npm start
 
 <br>
 
-### 📌 Tencologias:
+## 📌 Tencologias:
 • <img width="20px" src="https://skillicons.dev/icons?i=react" alt="testing library icon"/> ReactJS\
 • <img width="20px" src="https://skillicons.dev/icons?i=tailwind" alt="tailwindcss"/> Tailwind\
 • <img width=20px src="https://skillicons.dev/icons?i=react"> React Icons
