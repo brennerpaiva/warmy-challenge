@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>Desafio Frontend - Warmy</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visão geral
 
-## Available Scripts
+### ⚙️ Requisitos 
+Utilizar React.js para desenvolver a aplicação.
+Implementar um gerenciamento de estado utilizando a Context API do React.
+Utilizar Tailwind ou Styled Components para estilizar a aplicação.
+A aplicação deve ter as seguintes funcionalidades:
+  * Adicionar uma nova tarefa, que consiste em um campo de entrada de texto e um botão para adicionar.
+  * Exibir a lista de tarefas, mostrando o título de cada tarefa e um botão para remover.
+  * Marcar uma tarefa como concluída, alterando sua aparência visualmente.
+  * Atualizar automaticamente o total de tarefas pendentes.
+  * Armazenar as tarefas em um estado global utilizando a Context API.
 
-In the project directory, you can run:
+🔗 <a href="https://to-do-list-brennerpaiva.netlify.app/" target="_blank">Visualizar Deploy</a>
 
-### `npm start`
+### 🗂️ O Projeto
+![image](https://github.com/brennerpaiva/warmy-challenge/assets/114958953/b270942d-7b87-4667-86d3-3cd55f09ee1c)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O projeto foi desenvolvido utilizando React.js e Tailwind CSS para estilizar a aplicação. Para gerenciar o estado da aplicação, utilizei o Context API, uma funcionalidade do React que permite compartilhar e acessar dados em vários componentes sem a necessidade de passá-los manualmente por meio de propriedades.
 
-### `npm test`
+A aplicação possui todas as funcionalidades básicas requeridas, como adicionar uma nova tarefa, exibir uma lista de tarefas com a opção de remoção e marcar as tarefas como concluídas. Além disso, implementei a funcionalidade de editar tarefas, permitindo ao usuário modificar o conteúdo de uma tarefa existente.
+Ao utilizar o React.js, pude aproveitar os conceitos de componentização, o que me permitiu dividir a aplicação em componentes reutilizáveis e facilitou a manutenção e extensibilidade do projeto. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+No geral, estou satisfeito com o resultado do projeto. Sempre estou estou aberto a sugestões e melhorias adicionais para a aplicação.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🖥️ Instruções para rodar localmente:
+#### É possível acessar este projeto pelo deploy, mas caso queira testa-lo localmente para analisar ou até fazer modificações, siga as instruções abaixo!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<strong> 1️ • Clone o repositório usando o GIT </strong>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/brennerpaiva/warmy-challenge
+```
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<strong> 2️ • Instale as dependências do projeto</strong>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br>
 
-## Learn More
+<strong> 3 • Inicie a aplicações em um servidor local</strong>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📌 Tencologias:
+• <img width="20px" src="https://skillicons.dev/icons?i=react" alt="testing library icon"/> ReactJS\
+• <img width="20px" src="https://skillicons.dev/icons?i=tailwind" alt="tailwindcss"/> Tailwind\
+• <img width=20px src="https://skillicons.dev/icons?i=react"> React Icons
