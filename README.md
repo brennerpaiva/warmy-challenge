@@ -1,12 +1,14 @@
 <div align="center">
   <h1>Desafio Frontend - Warmy</h1>
+    
+  ![image](https://github.com/brennerpaiva/warmy-challenge/assets/114958953/6e672302-9c00-41c5-9b22-f8d756c45260)
+
 </div>
 
-## 📝 Desafio Técnico - Frontend-Júnior
+### 📝 Desafio Técnico 
 Este teste tem como objetivo avaliar as habilidades em desenvolvimento frontend utilizando React.js, gerenciamento de estado com Context API e o uso de bibliotecas de estilização como Tailwind ou Styled Components. O desafio consiste em criar uma aplicação simples de gerenciamento de tarefas.
 
-
-## ⚙️ Requisitos 
+### ⚙️ Requisitos 
 Utilizar React.js para desenvolver a aplicação.
 Implementar um gerenciamento de estado utilizando a Context API do React.
 Utilizar Tailwind ou Styled Components para estilizar a aplicação.
@@ -17,9 +19,11 @@ A aplicação deve ter as seguintes funcionalidades:
   * Atualizar automaticamente o total de tarefas pendentes.
   * Armazenar as tarefas em um estado global utilizando a Context API.
 
-## 🗂️ O Projeto
+<hr/>
+
 ![image](https://github.com/brennerpaiva/warmy-challenge/assets/114958953/b270942d-7b87-4667-86d3-3cd55f09ee1c)
 
+### 🗂️ O Projeto
 
 O projeto foi desenvolvido utilizando React.js e Tailwind CSS para estilizar a aplicação. Para gerenciar o estado da aplicação, utilizei o Context API, uma funcionalidade do React que permite compartilhar e acessar dados em vários componentes sem a necessidade de passá-los manualmente por meio de propriedades.
 
@@ -28,6 +32,7 @@ Ao utilizar o React.js, pude aproveitar os conceitos de componentização, o que
 
 No geral, estou satisfeito com o resultado do projeto. Sempre estou estou aberto a sugestões e melhorias adicionais para a aplicação.
 
+<hr />
 
 ## 🖥️ Instruções para rodar localmente:
 #### É possível acessar este projeto pelo deploy, mas caso queira testa-lo localmente para analisar ou até fazer modificações, siga as instruções abaixo!
@@ -54,10 +59,3 @@ npm install
 ```
 npm start
 ```
-
-<br>
-
-## 📌 Tencologias:
-• <img width="20px" src="https://skillicons.dev/icons?i=react" alt="testing library icon"/> ReactJS\
-• <img width="20px" src="https://skillicons.dev/icons?i=tailwind" alt="tailwindcss"/> Tailwind\
-• <img width=20px src="https://skillicons.dev/icons?i=react"> React Icons
