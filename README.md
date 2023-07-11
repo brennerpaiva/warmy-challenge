@@ -15,8 +15,6 @@ A aplicação deve ter as seguintes funcionalidades:
   * Atualizar automaticamente o total de tarefas pendentes.
   * Armazenar as tarefas em um estado global utilizando a Context API.
 
-🔗 <a href="https://to-do-list-brennerpaiva.netlify.app/" target="_blank">Visualizar Deploy</a>
-
 ### 🗂️ O Projeto
 ![image](https://github.com/brennerpaiva/warmy-challenge/assets/114958953/b270942d-7b87-4667-86d3-3cd55f09ee1c)
 
