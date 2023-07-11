@@ -1,14 +1,17 @@
 export var todos = [
   {
     id: "1",
-    task: "Fazer Café",
+    task: "Entregar Desafio Warmy🧣",
+    done: true,
   },
   {
     id: "2",
-    task: "Estudar",
+    task: "Estudar Typescript ✍️",
+    done: false,
   },
   {
-    id: "1",
-    task: "Entregar Desafio",
+    id: "3",
+    task: "Lavar a louça 🫧",
+    done: false,
   },
 ];
