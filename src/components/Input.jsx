@@ -16,7 +16,7 @@ function Input() {
         placeholder="Escreva sua Tarefa"
       />
       <span
-        className="py-3 px-5 cursor-pointer rounded-sm  bg-primaryLighter text-white"
+        className="py-3 px-5 cursor-pointer rounded-sm  bg-primaryLighter text-white hover:bg-primaryDarker transition-colors duration-300"
         onClick={() => {
           if (name != "") {
             todoContext.addTodo({
