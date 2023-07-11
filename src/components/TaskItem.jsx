@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { FiEdit2, FiTrash2, FiSave } from "react-icons/fi";
+import { FiEdit2, FiTrash2, FiCheck } from "react-icons/fi";
 import { TodoContext } from "../context/TodoProvider";
 
 function TaskItem({ todo }) {
@@ -16,13 +16,13 @@ function TaskItem({ todo }) {
               value={name}
               onChange={(e) => setName(e.target.value)}
               type="text"
-              className="flex-1 mr-2"
+              className="flex-1 mr-2 bg-secondary p-1 rounded "
             />
           ) : (
             <>
               <input
-                className="w-6 h-6"
                 type="checkbox"
+                className="w-6 h-6 accent-primaryDarker rounded"
                 checked={todo.done}
                 onChange={() =>
                   todoContext.updateTodo({
@@ -41,7 +41,7 @@ function TaskItem({ todo }) {
 
         <div className=" flex items-center gap-3">
           <button
-            className="cursor-pointer w-8 h-8 flex items-center justify-center bg-blue-100 rounded-full  text-red-500"
+            className="cursor-pointer w-8 h-8 flex items-center justify-center  rounded-full bg-blue-100 text-red-500  "
             onClick={() => {
               todoContext.removeTodo(todo.id);
             }}
@@ -49,7 +49,7 @@ function TaskItem({ todo }) {
             <FiTrash2 />
           </button>
           <button
-            className="cursor-pointer w-8 h-8 flex items-center justify-center bg-red-100 rounded-full text-blue-500"
+            className="cursor-pointer w-8 h-8 flex items-center justify-center bg-blue-100 rounded-full text-primaryDarker"
             onClick={() => {
               setToggleUpdate(!toggleUpdate);
               if (name != "") {
@@ -62,7 +62,7 @@ function TaskItem({ todo }) {
               }
             }}
           >
-            {toggleUpdate ? <FiSave /> : <FiEdit2 />}
+            {toggleUpdate ? <FiCheck /> : <FiEdit2 />}
           </button>
         </div>
       </li>
