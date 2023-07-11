@@ -2,11 +2,11 @@
   <h1>Desafio Frontend - Warmy</h1>
 </div>
 
-##📝 Desafio Técnico - Frontend-Júnior
+## 📝 Desafio Técnico - Frontend-Júnior
 Este teste tem como objetivo avaliar as habilidades em desenvolvimento frontend utilizando React.js, gerenciamento de estado com Context API e o uso de bibliotecas de estilização como Tailwind ou Styled Components. O desafio consiste em criar uma aplicação simples de gerenciamento de tarefas.
 
 
-##⚙️ Requisitos 
+## ⚙️ Requisitos 
 Utilizar React.js para desenvolver a aplicação.
 Implementar um gerenciamento de estado utilizando a Context API do React.
 Utilizar Tailwind ou Styled Components para estilizar a aplicação.
