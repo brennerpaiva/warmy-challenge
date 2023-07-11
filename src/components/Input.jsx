@@ -23,6 +23,7 @@ function Input() {
               todoContext.addTodo({
                 id: v1(),
                 task: name,
+                done: false,
               });
             }
             setName("");
