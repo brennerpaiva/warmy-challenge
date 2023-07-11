@@ -16,13 +16,13 @@ function TaskItem({ todo }) {
               value={name}
               onChange={(e) => setName(e.target.value)}
               type="text"
-              className="flex-1 mr-2 bg-secondary p-1 rounded transition-all duration-200"
+              className="flex-1 mr-2 bg-secondary p-1 rounded transition-all ease-in-out duration-300"
             />
           ) : (
             <>
               <input
                 type="checkbox"
-                className="w-6 h-6 accent-primaryDarker rounded transition-all duration-200"
+                className="w-6 h-6 accent-primaryDarker rounded "
                 checked={todo.done}
                 onChange={() =>
                   todoContext.updateTodo({
